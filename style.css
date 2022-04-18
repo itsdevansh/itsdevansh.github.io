@@ -66,6 +66,12 @@ body{
     text-transform: capitalize;
     font-weight: 300;
 }
+.heading{
+    color: #fff;
+    font-size: 120px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
 
 .home-img{
     position: absolute;
@@ -354,9 +360,9 @@ body{
     transition: 1s;
     padding: 100px 150px;
     height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
+    display: absolute;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px; */
 }
 
 .contact-form input, .contact-form textarea{
@@ -393,17 +399,3 @@ body{
     cursor: pointer;
 }
 
-.map{
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    border: 2px solid #fff;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-}
-
-.map iframe{
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-}
